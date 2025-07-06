@@ -125,7 +125,7 @@ class OrderInput extends React.Component {
       editOrder: null,
     });
 
-    alert(editOrder ? "Order updated!" : "Thank you, order placed!");
+    alert(editOrder ? "Okay, order updated!" : "Thank you, order placed!");
 
     if (this.props.onOrderPlaced) {
       this.props.onOrderPlaced();
