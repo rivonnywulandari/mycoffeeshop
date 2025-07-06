@@ -3,7 +3,7 @@ import OrderItem from './OrderItem';
  
 function OrderList({ orders, onDelete, onEdit, onUpdate, onRemove }) {
   if (orders.length === 0) {
-    return <p className="order-list-empty-message">Tidak ada pesanan</p>;
+    return <p className="order-list-empty-message">There's no order</p>;
   }
 
   return (
