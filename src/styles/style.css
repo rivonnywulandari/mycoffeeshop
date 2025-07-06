@@ -145,12 +145,16 @@ a {
 
 .increment-cart-button {
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   font-family: "Inter", sans-serif;
   background-color: #cfab71;
   border-radius: 5px;
 }
 .decrement-cart-button {
   padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
   font-family: "Inter", sans-serif;
   background-color: #cfab71;
   border-radius: 5px;
@@ -162,7 +166,7 @@ a {
 }
 
 .delete-cart-button {
-  margin-left: 50px;
+  margin-left: 40px;
   padding: 3px;
   font-family: "Inter", sans-serif;
   background-color: #713105;
@@ -558,12 +562,16 @@ textarea {
 
 .increment-cart-button {
   padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-family: "Inter", sans-serif;
   background-color: #cfab71;
   border-radius: 5px;
 }
 .decrement-cart-button {
   padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-family: "Inter", sans-serif;
   background-color: #cfab71;
   border-radius: 5px;
@@ -575,7 +583,7 @@ textarea {
 }
 
 .delete-cart-button {
-  margin-left: 140px;
+  margin-left: 130px;
   padding: 5px;
   font-family: "Inter", sans-serif;
   background-color: #713105;
