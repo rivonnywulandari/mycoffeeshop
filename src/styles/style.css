@@ -92,6 +92,9 @@ a {
   margin: 8px;
   font-family: "Inter", sans-serif;
   margin-right: 0px;
+  color: black;
+  border-radius: 5px;
+  background-color: #cfab71;
 }
 
 .customer-input {
@@ -143,10 +146,14 @@ a {
 .increment-cart-button {
   padding: 3px;
   font-family: "Inter", sans-serif;
+  background-color: #cfab71;
+  border-radius: 5px;
 }
 .decrement-cart-button {
   padding: 3px;
   font-family: "Inter", sans-serif;
+  background-color: #cfab71;
+  border-radius: 5px;
 }
 
 .customer-cart-quantity p {
@@ -158,6 +165,8 @@ a {
   margin-left: 50px;
   padding: 3px;
   font-family: "Inter", sans-serif;
+  background-color: #713105;
+  border-radius: 5px;
 }
 
 .customer-cart-grand-total {
@@ -169,7 +178,7 @@ a {
   margin-top: 1rem;
   padding: 8px;
   font-family: "Inter", sans-serif;
-  background-color: saddlebrown;
+  background-color: #713105;
   color: white;
   border-radius: 7px;
   font-weight: bold;
@@ -365,8 +374,8 @@ textarea {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 15px;
-  background-color: orangered;
-  color: black;
+  background-color: #341100;
+  color: white;
   border: 0;
   cursor: pointer;
 }
@@ -374,8 +383,8 @@ textarea {
 .order-item-edit {
   display: block;
   width: 100%;
-  background-color: rgb(255, 208, 0);
-  color: black;
+  background-color: saddlebrown;
+  color: white;
   border: 0;
   font-size: 15px;
   padding: 8px 0;

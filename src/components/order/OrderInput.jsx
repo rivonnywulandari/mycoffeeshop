@@ -88,7 +88,7 @@ class OrderInput extends React.Component {
     }
 
     if (cart.length === 0) {
-      alert("Cart is empty.");
+      alert("Order cart is empty.");
       return;
     }
 
