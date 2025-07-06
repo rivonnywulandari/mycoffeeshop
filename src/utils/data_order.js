@@ -6,16 +6,16 @@ const getData = () => {
       createdAt: "2025-05-15T04:27:34.572Z",
       products: [
         {
-          product_id: 1,
+          product_id: 3,
           product_name: "Espresso",
-          product_price: 5000,
+          product_price: 15000,
           quantity: 1,
           product_thumbnail: './images/coffee.jpg',
         },
         {
           product_id: 2,
           product_name: "Cappucino",
-          product_price: 5000,
+          product_price: 15000,
           quantity: 2,
           product_thumbnail: './images/coffee.jpg',
         },
@@ -28,16 +28,16 @@ const getData = () => {
       createdAt: "2025-06-14T04:27:34.572Z",
       products: [
         {
-          product_id: 4,
+          product_id: 5,
           product_name: "Latte",
-          product_price: 5000,
+          product_price: 15000,
           quantity: 1,
           product_thumbnail: './images/coffee.jpg',
         },
         {
-          product_id: 1,
+          product_id: 3,
           product_name: "Espresso",
-          product_price: 5000,
+          product_price: 15000,
           quantity: 1,
           product_thumbnail: './images/coffee.jpg',
         },
