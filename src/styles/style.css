@@ -458,10 +458,145 @@ textarea {
   font-family: "Inter", sans-serif;
 }
 
+@media only screen and (max-width: 500px) {
+
+  .order-app-header h2 {
+  margin: 8px 0;
+  flex: 1;
+  color: saddlebrown;
+  font-size: large;
+}
+  .order-search input {
+    max-width: 130px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+
+  .orders-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .order-input {
+  max-width: 100%;
+  margin: 0 auto 48px;
+  border: 1px dashed black;
+  padding: 16px;
+  /* margin: 14px 0; */
+  border-radius: 8px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+  .menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.menu-product-description h4 {
+  font-size: smaller;
+}
+
+.customer-input {
+  min-width: 50px;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+.customer-input-name {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.customer-input h4 {
+  margin-bottom: 5px;
+}
+
+.customer-cart {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.customer-cart img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+}
+
+.customer-cart-description {
+  flex: 1;
+}
+
+.customer-cart-description p {
+  margin: 0.25rem 0;
+  font-size: 12px;
+}
+
+.customer-cart-quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.increment-cart-button {
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  background-color: #cfab71;
+  border-radius: 5px;
+}
+.decrement-cart-button {
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  background-color: #cfab71;
+  border-radius: 5px;
+}
+
+.customer-cart-quantity p {
+  margin: 0.25rem 0;
+  font-size: 14px;
+}
+
+.delete-cart-button {
+  margin-left: 140px;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  background-color: #713105;
+  border-radius: 5px;
+}
+
+.customer-cart-grand-total {
+  margin-top: 1rem;
+}
+
+.save-order-button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  background-color: #713105;
+  color: white;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+}
+
 @media only screen and (min-width: 500px) {
   .orders-list {
     grid-template-columns: 1fr 1fr;
   }
+
 }
 
 @media only screen and (min-width: 800px) {
