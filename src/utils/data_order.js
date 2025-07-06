@@ -25,7 +25,7 @@ const getData = () => {
     {
       id: 2,
       customer_name: "Lyodra",
-      createdAt: "2025-06-14T04:27:34.572Z",
+      createdAt: "2025-06-10T04:27:34.572Z",
       products: [
         {
           product_id: 5,
@@ -37,6 +37,28 @@ const getData = () => {
         {
           product_id: 3,
           product_name: "Espresso",
+          product_price: 15000,
+          quantity: 1,
+          product_thumbnail: './images/coffee.jpg',
+        },
+        
+      ]
+    },
+    {
+      id: 3,
+      customer_name: "Tiara",
+      createdAt: "2025-06-14T04:27:34.572Z",
+      products: [
+        {
+          product_id: 1,
+          product_name: "Americano",
+          product_price: 15000,
+          quantity: 1,
+          product_thumbnail: './images/coffee.jpg',
+        },
+        {
+          product_id: 2,
+          product_name: "Cappuccino",
           product_price: 15000,
           quantity: 1,
           product_thumbnail: './images/coffee.jpg',
