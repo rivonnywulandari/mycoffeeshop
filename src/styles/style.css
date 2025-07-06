@@ -469,9 +469,9 @@ textarea {
   .order-search input {
     max-width: 130px;
     padding: 8px;
-    font-size: 14px;
     border-radius: 4px;
     border: 1px solid black;
+    font-size: 16px;
   }
 
   .orders-list {
@@ -499,6 +499,15 @@ textarea {
   font-size: smaller;
 }
 
+.menu-product-quantity-input {
+  flex: 1;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
 .customer-input {
   min-width: 50px;
   margin-top: 15px;
@@ -508,6 +517,7 @@ textarea {
 .customer-input-name {
   width: 100%;
   margin-bottom: 1rem;
+  font-size: 16px;
 }
 
 .customer-input h4 {
@@ -592,12 +602,6 @@ textarea {
 
 }
 
-@media only screen and (min-width: 500px) {
-  .orders-list {
-    grid-template-columns: 1fr 1fr;
-  }
-
-}
 
 @media only screen and (min-width: 800px) {
   .order-list {
